@@ -1,0 +1,1 @@
+<?php require 'helpers/functions.php'; go(empty($_SESSION['user'])?'login.php':'dashboard.php');
